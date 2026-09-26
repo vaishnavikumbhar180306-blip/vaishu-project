@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navBar{
+    width: 960px;
+    height: 40px;
+    margin:20px,auto;
+    margin-top: 30px;
+    margin-right:0, auto;
+    position: relative;
+}
+.navBar ul li{
+    float:left;
+    list-style-type: none;
+    width: 192px;
+    height: 40px;
+    text-align: center;
+}
+.navBar ul li a{
+    color: #123F36;
+    width: 191px;
+    height: 32px;
+    display: block;
+    padding-top: 8px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+.navBar ul li a:hover{
+    color: #C49A45;
+    border-bottom: solid 2px black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.headingText h1{
+    text-align: center;
+    margin-top: 250px;
+    font-size: 50px;
+    
+}
+.serviceList{
+    display: none;
+    position: absolute;
+}
+.navBar ul li:hover .serviceList{
+    display: block;
+    
+}
+.navBar.serviceList li{
+    position: relative;
+    float: right;
+    width: 192px;
+    height: 40pxs;
+}
+
+.softwareList{
+    position: absolute;
+    display: none; 
+}
+
+.serviceList li:hover .softwareList{
+    display: block;
+    float: left;
+    
+}
