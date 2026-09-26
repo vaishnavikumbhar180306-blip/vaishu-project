@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Transition</title>
+    <style> 
+        .box1{
+            background-color: blueviolet;
+            color:aliceblue;
+            transition-property: background-color;
+            transition-duration: 0.5s;
+            width: 40%;
+            height: 100px;
+            text-align: center;
+            font-size: 40px;
+            font-weight: ;
+        }
+        .box1:hover {
+            background-color: aquamarine;
+        }
+        .box3{
+            background-color: brown;
+            transition-property: background-color;
+            transition-duration: 0.5s;
+            transition-delay: 1s;
+        }
+        .box3:hover{
+            background-color: red;
+        }
+        .box4{
+            background-color: aqua;
+            transition-property: transform;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+        }
+        .box4:hover
+        {
+            transform: scale(1.2);
+        }
+        .button{
+            background-color:#1D4533 ;
+            color:#F0E76F;
+            padding : 12px 25px;
+            border: none;
+            transition: background-color 0.3s ease 0s;
+        }
+        .button:hover{
+            background-color:#810B38 ;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> CSS Transition</h1>
+    <div class="box1">Transition Property</div>
+    <br>
+    <div class="box3">Transition Delay</div>
+    <br>
+    <div class="box4">Timing Function</div>
+    <br>
+    <button class="button"> Hover Me</button>
+    
+</body>
+</html>
